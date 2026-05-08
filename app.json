@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "TrictoCal AI",
+    "slug": "tricto-cal-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFF8EE"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yuk17.trictocalai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFF8EE"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.yuk17.trictocalai"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow TrictoCal AI to access your food photos.",
+          "cameraPermission": "Allow TrictoCal AI to use the camera for meal capture."
+        }
+      ],
+      "expo-sqlite",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
