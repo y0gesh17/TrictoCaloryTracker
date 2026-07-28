@@ -2,6 +2,14 @@
 
 TrictoCal AI is an offline-first calorie and macro tracking mobile app built with Expo React Native. It helps users create a nutrition plan during onboarding, log meals manually or with AI-assisted prompts, track daily weight, and review progress through calendar-based history.
 
+## Screenshots
+
+![TrictoCal AI screenshot 1](assets/image_1.jpeg)
+![TrictoCal AI screenshot 2](assets/image_2.jpeg)
+![TrictoCal AI screenshot 3](assets/image_3.jpeg)
+![TrictoCal AI screenshot 4](assets/image_4.jpeg)
+![TrictoCal AI screenshot 5](assets/image_5.jpeg)
+
 ## Features
 
 - Guided onboarding for age, gender, height, weight, activity level, and goal
